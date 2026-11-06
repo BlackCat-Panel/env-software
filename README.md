@@ -21,6 +21,7 @@
 | `nodejs-all` | Node.js（Win zip + Linux tar.xz） |
 | `pm2-all` | PM2（npm tarball） |
 | `deno-all` | Deno（Win/Linux x64 zip，`deno-v{ver}-…`） |
+| `python-all` | Python（Win embed zip + Linux astral standalone） |
 
 ## 命名约定
 
@@ -36,5 +37,7 @@
 - Node.js Linux: `node-v<ver>-linux-x64.tar.xz`
 - PM2: `pm2-latest.tgz` / `pm2-<ver>.tgz`
 - Deno: `deno-v<ver>-x86_64-pc-windows-msvc.zip` / `deno-v<ver>-x86_64-unknown-linux-gnu.zip`
+- Python Win: `python-<ver>-embed-amd64.zip`
+- Python Linux: `cpython-<ver>+<tag>-x86_64-unknown-linux-gnu-install_only.tar.gz`
 
 仓库公开仅作开源软件镜像备用，请优先使用官方 CDN。
