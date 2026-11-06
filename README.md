@@ -19,6 +19,7 @@ edis-all | Redis |
 | jdk-all | OpenJDK Temurin 8/11/17/21（Win zip / Linux tar.gz） |
 | 	omcat-all | Apache Tomcat 10/9/8/7（zip + tar.gz） |
 | php-all | PHP 8.5~5.3（Win zip + 源码 tar.gz） |
+| composer-all | Composer（latest-stable + 面板列表版本 phar） |
 
 ## 命名约定
 
@@ -29,5 +30,6 @@ edis-all | Redis |
 - Tomcat: pache-tomcat-<ver>.zip / pache-tomcat-<ver>.tar.gz
 - PHP Win: php-<ver>-Win32-<crt>-x64.zip（5.3/5.4 为 x86）
 - PHP Linux: php-<ver>.tar.gz
+- Composer: composer-latest-stable.phar / composer-<ver>.phar
 
 仓库公开仅作开源软件镜像备用，请优先使用官方 CDN。
