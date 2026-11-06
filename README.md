@@ -6,17 +6,18 @@
 
 | Tag | 说明 |
 |-----|------|
-| `nginx-all` | Nginx：Windows `.zip` / Linux `.tar.gz` |
-| `openresty-all` | OpenResty：Windows `.zip` / Linux `.tar.gz` |
-| `apache-all` | Apache：Windows `.zip` / Linux `.tar.gz` |
-| `mysql-all` | MySQL：Windows `.zip` / Linux `.tar.xz` 或 `.tar.gz` |
-| `mariadb-all` | MariaDB：Windows `.zip` / Linux `.tar.gz` |
-| `redis-all` | Redis：Windows 移植包 / Linux 官方源码 `.tar.gz` |
-| `pgsql-all` | PostgreSQL：Windows EDB 二进制 zip / Linux 官方源码 `.tar.gz` |
+| `nginx-all` | Nginx |
+| `openresty-all` | OpenResty |
+| `apache-all` | Apache |
+| `mysql-all` | MySQL |
+| `mariadb-all` | MariaDB |
+| `redis-all` | Redis |
+| `pgsql-all` | PostgreSQL |
+| `mongodb-all` | MongoDB：Windows zip / Linux `ubuntu/debian/rhel` tgz |
 
 ## 命名约定
 
-- PostgreSQL Win: `postgresql-<ver>-windows-x64-binaries.zip`（如 `16.6-1`）
-- PostgreSQL Linux: `postgresql-<ver>.tar.gz`（如 `16.6`）
+- MongoDB Win: `mongodb-windows-x86_64-<ver>.zip`
+- MongoDB Linux: `mongodb-linux-x86_64-<plat>-<ver>.tgz`
 
 仓库公开，仅作备用源；请优先使用官方 CDN。
