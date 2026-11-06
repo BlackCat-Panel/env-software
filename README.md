@@ -9,17 +9,14 @@
 | `nginx-all` | Nginx：Windows `.zip` / Linux `.tar.gz` |
 | `openresty-all` | OpenResty：Windows `.zip` / Linux `.tar.gz` |
 | `apache-all` | Apache：Windows `.zip` / Linux `.tar.gz` |
-| `mysql-all` | MySQL：Windows `.zip` / Linux `.tar.xz` 或 `.tar.gz`（8.4 / 8.0 / 5.7 / 5.6 / 5.5） |
-| `mariadb-all` | MariaDB：Windows `.zip` / Linux `.tar.gz`（11.4 / 11.2 / 10.11 / 10.6 / 10.5 / 10.4 / 10.3） |
+| `mysql-all` | MySQL：Windows `.zip` / Linux `.tar.xz` 或 `.tar.gz` |
+| `mariadb-all` | MariaDB：Windows `.zip` / Linux `.tar.gz` |
+| `redis-all` | Redis：Windows 移植包 `Redis-x64-*.zip` / Linux 官方源码 `redis-<ver>.tar.gz` |
 
 ## 命名约定
 
-- Nginx: `nginx-<ver>.zip` / `nginx-<ver>.tar.gz`
-- OpenResty: `openresty-<ver>-win64.zip` / `openresty-<ver>.tar.gz`
-- Apache Win / Linux: `httpd-<ver>-...` / `httpd-<ver>.tar.gz`
-- MySQL Win: `mysql-<ver>-winx64.zip`
-- MySQL Linux: `mysql-<ver>-linux-glibc2.28-x86_64.tar.xz` 或 `glibc2.12` 的 `.tar.xz` / `.tar.gz`
-- MariaDB Win: `mariadb-<ver>-winx64.zip`
-- MariaDB Linux: `mariadb-<ver>-linux-systemd-x86_64.tar.gz`
+- Nginx / OpenResty / Apache / MySQL / MariaDB：见各 Release 文件名
+- Redis Win: `Redis-x64-5.0.14.1.zip` 等
+- Redis Linux: `redis-<ver>.tar.gz`
 
 仓库公开，仅作备用源；请优先使用官方 CDN。
