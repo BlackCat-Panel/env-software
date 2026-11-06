@@ -20,6 +20,7 @@
 | `composer-all` | Composer（latest-stable + 面板列表版本 phar） |
 | `nodejs-all` | Node.js（Win zip + Linux tar.xz） |
 | `pm2-all` | PM2（npm tarball） |
+| `deno-all` | Deno（Win/Linux x64 zip，`deno-v{ver}-…`） |
 
 ## 命名约定
 
@@ -34,5 +35,6 @@
 - Node.js Win: `node-v<ver>-win-x64.zip`
 - Node.js Linux: `node-v<ver>-linux-x64.tar.xz`
 - PM2: `pm2-latest.tgz` / `pm2-<ver>.tgz`
+- Deno: `deno-v<ver>-x86_64-pc-windows-msvc.zip` / `deno-v<ver>-x86_64-unknown-linux-gnu.zip`
 
 仓库公开仅作开源软件镜像备用，请优先使用官方 CDN。
