@@ -11,12 +11,12 @@
 | `apache-all` | Apache：Windows `.zip` / Linux `.tar.gz` |
 | `mysql-all` | MySQL：Windows `.zip` / Linux `.tar.xz` 或 `.tar.gz` |
 | `mariadb-all` | MariaDB：Windows `.zip` / Linux `.tar.gz` |
-| `redis-all` | Redis：Windows 移植包 `Redis-x64-*.zip` / Linux 官方源码 `redis-<ver>.tar.gz` |
+| `redis-all` | Redis：Windows 移植包 / Linux 官方源码 `.tar.gz` |
+| `pgsql-all` | PostgreSQL：Windows EDB 二进制 zip / Linux 官方源码 `.tar.gz` |
 
 ## 命名约定
 
-- Nginx / OpenResty / Apache / MySQL / MariaDB：见各 Release 文件名
-- Redis Win: `Redis-x64-5.0.14.1.zip` 等
-- Redis Linux: `redis-<ver>.tar.gz`
+- PostgreSQL Win: `postgresql-<ver>-windows-x64-binaries.zip`（如 `16.6-1`）
+- PostgreSQL Linux: `postgresql-<ver>.tar.gz`（如 `16.6`）
 
 仓库公开，仅作备用源；请优先使用官方 CDN。
