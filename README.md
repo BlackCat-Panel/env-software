@@ -1,17 +1,22 @@
-﻿# 环境软件
+# BlackCat Panel 环境软件备用下载
 
-BlackCat Panel 软件安装的公开备用镜像资源。
+面板安装软件时，官方/国内镜像失败后会回退到本仓库 GitHub Releases（并经 `ghfast.top` 加速）。
 
-## Nginx
+## Releases
 
-Release 标签：`nginx-all`
+| Tag | 说明 |
+|-----|------|
+| `nginx-all` | Nginx：Windows `.zip` / Linux `.tar.gz` |
+| `openresty-all` | OpenResty：Windows `.zip` / Linux `.tar.gz` |
+| `apache-all` | Apache：Windows `.zip` / Linux `.tar.gz` |
+| `mysql-all` | MySQL：Windows `.zip` / Linux `.tar.xz` 或 `.tar.gz`（8.4 / 8.0 / 5.7 / 5.6 / 5.5） |
 
-- Windows：`nginx-<ver>.zip`
-- Linux：`nginx-<ver>.tar.gz`
+## 命名约定
 
-示例：
+- Nginx: `nginx-<ver>.zip` / `nginx-<ver>.tar.gz`
+- OpenResty: `openresty-<ver>-win64.zip` / `openresty-<ver>.tar.gz`
+- Apache Win / Linux: `httpd-<ver>-...` / `httpd-<ver>.tar.gz`
+- MySQL Win: `mysql-<ver>-winx64.zip`
+- MySQL Linux: `mysql-<ver>-linux-glibc2.28-x86_64.tar.xz` 或 `glibc2.12` 的 `.tar.xz` / `.tar.gz`
 
-- https://github.com/BlackCat-Panel/env-software/releases/download/nginx-all/nginx-1.30.4.zip
-- https://github.com/BlackCat-Panel/env-software/releases/download/nginx-all/nginx-1.30.4.tar.gz
-
-公开仓库，可直接下载，无需 Token。面板会在官方/国内源失败后自动回退到此镜像。
+仓库公开，仅作备用源；请优先使用官方 CDN。
